@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="150.0" prefWidth="300.0"
+	fx:controller="jp.studio2.Window2Controller"
+	xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<top>
+		<Label fx:id="label1" text="Who are you??" BorderPane.alignment="CENTER" />
+	</top>
+	<center>
+		<TextField fx:id="text1" BorderPane.alignment="CENTER" />
+	</center>
+	<bottom>
+		<Button fx:id="btn1" onAction="#buttonAction" text="send your answer!" BorderPane.alignment="CENTER" />
+	</bottom>
+</BorderPane>

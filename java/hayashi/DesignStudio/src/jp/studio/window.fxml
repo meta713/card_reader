@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?language javascript?>
+
+<BorderPane prefHeight="150.0" prefWidth="300.0"
+	xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<fx:script>
+		function buttonAction(e){
+			var str = text1.getText();
+			label1.setText(str);
+		}
+	</fx:script>
+	<top>
+		<Label fx:id="label1" text="this is FXML sample!" BorderPane.alignment="CENTER" />
+	</top>
+	<center>
+		<TextField fx:id="text1" BorderPane.alignment="CENTER" />
+	</center>
+	<bottom>
+		<Button fx:id="btn1" onAction="buttonAction(this);" text="click me!" BorderPane.alignment="CENTER" />
+	</bottom>
+</BorderPane>
