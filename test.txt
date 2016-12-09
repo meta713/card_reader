@@ -1,1 +1,2 @@
+これはvagrantからのテストです！
 this is test commit!
